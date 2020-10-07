@@ -6,6 +6,7 @@ Byungjoo Kim, Bryce Chudomelka, Jinyoung Park, Jaewoo Kang, Youngjoon Hong, Hyun
 The full figures of perturbation growth ratio.
 
 Top: PGR with L1 norm, (N,K)=(6,7), (6,12), (10,7), (10,12) with left to right.
+
 Bottom: PGR with L2 norm, (N,K)=(6,7), (6,12), (10,7), (10,12) with left to right.
 
 Codes for our ECCV2020 paper **Robust Neural Networks Inspired by Strong Stability Preserving Runge-Kutta
@@ -38,8 +39,8 @@ The available combinations are listed below.
 | `$gpu` | Gpu allocation. If you are using multiple GPUs, you could set the argument `$multi` as `True` (only available for TinyImagenet). |
 | `$norm` | Normalization layer selection. `b`(BatchNorm) and `g`(GroupNorm) is available. |
 | `$seed` | Random seed. |
-In our training setup, the argument `$eps` and `$alpha` are fixed. Please refer lines 15~28 of `container.py` for detailed descriptions.
 
+In our training setup, the argument `$eps` and `$alpha` are fixed. Please refer lines 15~28 of `container.py` for detailed descriptions.
 
 For training the models on MNIST, you could use
 ```
