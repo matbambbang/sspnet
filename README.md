@@ -1,4 +1,4 @@
-# Robust Neural Networks Inspired by Strong Stability Preserving Runge-Kutta methods.
+# Robust Neural Networks inspired by Strong Stability Preserving Runge-Kutta methods.
 Byungjoo Kim, Bryce Chudomelka, Jinyoung Park, Jaewoo Kang, Youngjoon Hong, Hyunwoo J. Kim.
 
 ![norm1](images/PGR_norm1.jpg)
@@ -9,7 +9,7 @@ Top: PGR with L1 norm, (N,K)=(6,7), (6,12), (10,7), (10,12) with left to right.
 
 Bottom: PGR with L2 norm, (N,K)=(6,7), (6,12), (10,7), (10,12) with left to right.
 
-Codes for our ECCV2020 paper **Robust Neural Networks Inspired by Strong Stability Preserving Runge-Kutta
+Codes for our ECCV2020 paper **Robust Neural Networks inspired by Strong Stability Preserving Runge-Kutta
 methods** [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540392.pdf). All the materials in this paper is included in
 [here](https://drive.google.com/drive/folders/1tEDdRrA7fQtQYH6Hcc97t96lJI-pDFih?usp=sharing).
 
@@ -84,3 +84,14 @@ the below commands. Note that this code is only available for CIFAR10 models.
 ```python lipschitz.py --load pretrained_models/cifar10/{$block}blocks_{$iters}iters/{$model} --model {$model} --block {$block} --attack pgd --eps 8. --alpha 2. --iters 20 --norm_type 1```
 
 ```python lipschitz.py --load pretrained_models/cifar10/{$block}blocks_{$iters}iters/{$model} --model {$model} --block {$block} --attack pgd --eps 8. --alpha 2. --iters 20 --norm_type 2```
+
+## Citation
+```
+@inproceedings{kim2020sspnet,
+  title={Robust Neural Networks inspired by Strong Stability Preserving Runge-Kutta methods},
+  author={Kim, Byungjoo and Chedomelka, Bryce and Park, Jinyoung and Kang, Jaewoo and Hong, Youngjoon and Kim, Hyunwoo J},
+  booktitle={ECCV},
+  year={2020},
+  organization={Springer}
+}
+```
