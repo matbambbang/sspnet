@@ -2,7 +2,7 @@
 Byungjoo Kim, Bryce Chudomelka, Jinyoung Park, Jaewoo Kang, Youngjoon Hong, Hyunwoo J. Kim.
 
 Codes for our ECCV2020 paper **Robust Neural Networks Inspired by Strong Stability Preserving Runge-Kutta
-methods**[[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540392.pdf). All the materials in this paper is included in
+methods** [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540392.pdf). All the materials in this paper is included in
 [here](https://drive.google.com/drive/folders/1tEDdRrA7fQtQYH6Hcc97t96lJI-pDFih?usp=sharing).
 
 ## Installation

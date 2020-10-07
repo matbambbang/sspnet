@@ -1,6 +1,3 @@
-conda create -n sspnet python=3.6
-
-conda activate sspnet
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 pip install tensorflow-gpu==1.9.0
 pip install overrides
