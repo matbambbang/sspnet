@@ -1,12 +1,20 @@
 # Robust Neural Networks Inspired by Strong Stability Preserving Runge-Kutta methods.
 Byungjoo Kim, Bryce Chudomelka, Jinyoung Park, Jaewoo Kang, Youngjoon Hong, Hyunwoo J. Kim.
 
+![norm1](images/PGR_norm1.jpg)
+![norm2](images/PGR_norm2.jpg)
+The full figures of perturbation growth ratio.
+
+Top: PGR with L1 norm, (N,K)=(6,7), (6,12), (10,7), (10,12) with left to right.
+Bottom: PGR with L2 norm, (N,K)=(6,7), (6,12), (10,7), (10,12) with left to right.
+
 Codes for our ECCV2020 paper **Robust Neural Networks Inspired by Strong Stability Preserving Runge-Kutta
 methods** [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540392.pdf). All the materials in this paper is included in
 [here](https://drive.google.com/drive/folders/1tEDdRrA7fQtQYH6Hcc97t96lJI-pDFih?usp=sharing).
 
 ## Installation
-Please use `setup.sh` to create your conda environments.
+First, create your conda environment with python=3.6.
+Then use `setup.sh` to install the requirements.
 Download the pretrained models from [here](https://drive.google.com/drive/folders/1tEDdRrA7fQtQYH6Hcc97t96lJI-pDFih?usp=sharing) to the
 `pretrained_models` directory.
 
