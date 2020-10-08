@@ -103,7 +103,6 @@ the below commands. Note that this code is only available for CIFAR10 models.
   title={Robust Neural Networks inspired by Strong Stability Preserving Runge-Kutta methods},
   author={Kim, Byungjoo and Chedomelka, Bryce and Park, Jinyoung and Kang, Jaewoo and Hong, Youngjoon and Kim, Hyunwoo J},
   booktitle={ECCV},
-  year={2020},
-  organization={Springer}
+  year={2020}
 }
 ```
