@@ -13,6 +13,18 @@ Codes for our ECCV2020 paper **Robust Neural Networks inspired by Strong Stabili
 methods** [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540392.pdf). All the materials in this paper is included in
 [here](https://drive.google.com/drive/folders/1tEDdRrA7fQtQYH6Hcc97t96lJI-pDFih?usp=sharing).
 
+## Abstract
+Deep neural networks have achieved state-of-the-art performance in a variety of fields.
+Recent works observe that a class of widely used neural networks can be viewed as the Euler method of numerical discretization.
+From the numerical discretization perspective, Strong Stability Preserving (SSP) methods are more advanced techniques than the explicit Euler method
+that produce both accurate and stable solutions.
+Motivated by the SSP property and a generalizedRunge-Kutta method, we propose Strong Stability Preserving networks (SSP networks) which improve
+robustness against adversarial attacks.
+We expirically demonstratet that the proposed networks improve the robustness against adversarial examples without any defensive methods.
+Further, the SSP networks are complementary with a state-of-the-art adversarial training scheme.
+Lastly, our experiments show that SSP networks suppress the blow-up of adversarial perturbations.
+Our results open up a way to study robust architectures of neural networks leveraging rich knowledge from numerical discretization literature.
+
 ## Installation
 First, create your conda environment with python=3.6.
 Then use `setup.sh` to install the requirements.
