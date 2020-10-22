@@ -10,7 +10,7 @@ Top: PGR with L1 norm, (N,K)=(6,7), (6,12), (10,7), (10,12) with left to right.
 Bottom: PGR with L2 norm, (N,K)=(6,7), (6,12), (10,7), (10,12) with left to right.
 
 Codes for our ECCV2020 paper **Robust Neural Networks inspired by Strong Stability Preserving Runge-Kutta
-methods** [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540392.pdf). All the materials in this paper is included in
+methods** [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540392.pdf)[[arxiv]](https://arxiv.org/abs/2010.10047). All the materials in this paper is included in
 [here](https://drive.google.com/drive/folders/1tEDdRrA7fQtQYH6Hcc97t96lJI-pDFih?usp=sharing).
 
 ## Abstract
@@ -20,7 +20,7 @@ From the numerical discretization perspective, Strong Stability Preserving (SSP)
 that produce both accurate and stable solutions.
 Motivated by the SSP property and a generalizedRunge-Kutta method, we propose Strong Stability Preserving networks (SSP networks) which improve
 robustness against adversarial attacks.
-We expirically demonstratet that the proposed networks improve the robustness against adversarial examples without any defensive methods.
+We empirically demonstrate that the proposed networks improve the robustness against adversarial examples without any defensive methods.
 Further, the SSP networks are complementary with a state-of-the-art adversarial training scheme.
 Lastly, our experiments show that SSP networks suppress the blow-up of adversarial perturbations.
 Our results open up a way to study robust architectures of neural networks leveraging rich knowledge from numerical discretization literature.

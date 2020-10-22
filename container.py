@@ -107,6 +107,7 @@ def trainer(model, logger, loader, args, data="mnist", optimizer=None, scheduler
             scheduler.step()
 
         model.train()
+        print(optimizer)
         optimizer.zero_grad()
         x, y = data_gen.__next__()
         x = x.to(args.device)
